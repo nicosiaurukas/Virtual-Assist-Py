@@ -14,7 +14,7 @@ class LLM():
         response = openai.ChatCompletion.create(
             model="gpt-3.5-turbo-0613",
             messages=[
-                    #Si no te gusta que te hable feo, cambia aqui su descripcion
+                    #Aca podras cambiar que actitud toma el asistente
                     {"role": "system", "content": "Eres un asistente amable"},
                     {"role": "user", "content": text},
             ], functions=[
