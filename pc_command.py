@@ -14,11 +14,11 @@ class PcCommand():
 
     def open_discord(self):
         comando = 'Discord'
-        subprocess.Popen(["C:/Users/nicol/AppData/Local/Discord/app-1.0.9013/Discord.exe",  comando])
+        subprocess.Popen(["C:/Users/Tu/Ruta/Discord.exe",  comando])
 
     def open_spotify(self):
         comando = 'Spotify'
-        subprocess.Popen(["C:/Users/nicol/AppData/Local/Microsoft/WindowsApps/SpotifyAB.SpotifyMusic_zpdnekdrzrea0/Spotify.exe",  comando])    
+        subprocess.Popen(["C:/Users/Tu/Ruta/Spotify.exe",  comando])    
 
     def open_visual_studio_code(self):
         command = 'code'
@@ -29,7 +29,7 @@ class PcCommand():
     def open_programs(self):
           
         #Open Discord
-        subprocess.Popen(["C:/Users/nicol/AppData/Local/Discord/app-1.0.9013/Discord.exe"])
+        subprocess.Popen(["C:/Users/Tu/Ruta/Discord.exe"])
 
         #Open Notepad++
         subprocess.Popen(["C:/Program Files/Notepad++/notepad++.exe"])
