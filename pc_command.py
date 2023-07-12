@@ -34,11 +34,10 @@ class PcCommand():
         #Open Notepad++
         subprocess.Popen(["C:/Program Files/Notepad++/notepad++.exe"])
 
-        #Open Google Chrome - Con pestañas en Mail Cenco, Mail Personal, AWS, GitLab
+        #Open Google Chrome - Con pestañas en Mail, AWS
         subprocess.Popen(["C:/Program Files/Google/Chrome/Application/chrome.exe ", "https://outlook.office365.com/mail/", 
                       "https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox",
-                      "https://d-90675d22db.awsapps.com/start#/", 
-                      "https://gitlab.com/cencosud-ds/cencommerce/post-purchase-experience/fulfilment/delivery/backend"])
+                      "https://d-90675d22db.awsapps.com/start#/"])
 
 
       
