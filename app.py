@@ -44,7 +44,7 @@ def audio():
         
         elif function_name == "send_email":
             #Llamar a la funcion para enviar un correo
-            final_response = "Tu que estas leyendo el codigo, implementame y envia correos muahaha"
+            final_response = "Tu que estas leyendo el codigo, implementame y envia correos"
             tts_file = TTS().process(final_response)
             return {"result": "ok", "text": final_response, "file": tts_file}
         
@@ -90,5 +90,3 @@ def audio():
         tts_file = TTS().process(final_response)
         return {"result": "ok", "text": final_response, "file": tts_file, "listen_again": True}
     
-    #llm = LLM()
-    #function_name, args, message = llm.process_functions(text)
