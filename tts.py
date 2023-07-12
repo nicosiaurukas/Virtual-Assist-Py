@@ -11,7 +11,6 @@ class TTS():
     def process(self, text):
         CHUNK_SIZE = 1024
         #Utiliza la voz especifica de Bella
-        #Me robe este codigo de su pagina hoh
         url = "https://api.elevenlabs.io/v1/text-to-speech/EXAVITQu4vr4xnSDxMaL"
 
         headers = {
